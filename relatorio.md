@@ -1,0 +1,36 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 25/03/2024
+Empresa: Abstergo Industries 
+Responsável: Bruniel Menezes
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa [nome da empresa], realizado por [nome do responsável pelo projeto]. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Nome: Armazenamento S3
+- Foco: O Amazon Simple Storage Service (Amazon S3) é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor. Clientes de todos os portes e setores podem armazenar e proteger qualquer quantidade de dados de praticamente qualquer caso de uso, como data lakes, aplicações nativas da nuvem e aplicações móveis. Com classes de armazenamento econômicas e recursos de gerenciamento fáceis de usar, você pode otimizar custos, organizar dados e configurar controles de acesso ajustados para atender a requisitos específicos de negócios, organizacionais e de conformidade.
+- Descrição: 1. Construir um data lake: Execute aplicações de análise de big data, inteligência artificial (IA), machine learning (ML) e computação de alta performance (HPC) para desbloquear insights de dados. 2. Faça o backup e a restauração de dados críticos: Atenda aos objetivos de tempo de recuperação (RTO), objetivos de ponto de recuperação (RPO) e requisitos de conformidade com os recursos de replicação robustos do S3. 3. Arquive dados com o menor custo: Mova os arquivos de dados para as classes de armazenamento do Amazon S3 Glacier para reduzir custos, eliminar complexidades operacionais e obter novos insights. 4. Execute aplicações nativas da nuvem: Crie aplicações nativas da nuvem rápidas e poderosas baseadas na Web que se expandem automaticamente em uma configuração altamente disponível.
+
+Etapa 2: 
+- Nome: RDS para MySQL
+- Foco: O MySQL é o banco de dados relacional de código aberto mais popular do mundo, e o Amazon RDS facilita a configuração, a operação e a escalabilidade de implantações do MySQL na nuvem. Com o Amazon RDS, você pode implantar em minutos servidores MySQL escaláveis com capacidade de hardware econômica e redimensionável.
+- Descrição: 1. Implantações fáceis e gerenciadas: Bastam alguns cliques no Console de Gerenciamento da AWS para iniciar e conectar-se a um banco de dados MySQL pronto para o ambiente de produção em apenas alguns minutos. As instâncias do Amazon RDS for MySQL são pré-configuradas com parâmetros e definições para o tipo de servidor selecionado. Os grupos de parâmetros de bancos de dados oferecem controle granular e ajuste fino do seu banco de dados MySQL. Quando você precisa fazer uma atualização de banco de dados, as implantações azuis/verdes do Amazon RDS são projetadas para torná-la mais segura, simples e rápida. 2. Performance rápida e previsível: O Amazon RDS oferece duas opções de armazenamento baseado em SSD para bancos de dados MySQL. O armazenamento de uso geral oferece economia para workloads de pequeno ou médio porte. Para aplicações OLTP de alta performance, as IOPS provisionadas oferecem performance consistente de até 256.000 E/Ss por segundo. À medida que os requisitos de armazenamento aumentam, você também pode provisionar armazenamento adicional imediato com um período de interrupção zero. Com as Gravações otimizadas pelo Amazon RDS, obtenha um throughput de transação de gravação até duas vezes melhor, enquanto as Leituras otimizadas pelo Amazon RDS fornece processamento de consulta até 50% mais rápido. 3. Backup e recuperação: O recurso de backup automático do Amazon RDS permite recuperar qualquer point-in-time de uma instância de banco de dados MySQL dentro do período de retenção especificado de até 35 dias. Além disso, você pode executar backups da instância de banco de dados iniciados pelo usuário. Esses backups completos de banco de dados serão armazenados pelo Amazon RDS até que você os exclua explicitamente. 4. Alta disponibilidade e réplicas de leitura: As implantações multi-AZ do Amazon RDS proporcionam melhor disponibilidade e resiliência para banco de dados MySQL, o que as torna uma solução ideal para workloads de banco de dados de produção. As réplicas de leitura do Amazon RDS foram projetadas para facilitar o aumento da escala horizontalmente de maneira elástica além das limitações de capacidade de uma única instância de banco de dados para workloads de banco de dados com altos volumes de leitura. 5. Isolamento e segurança: Como serviço gerenciado, o Amazon RDS oferece um alto nível de segurança para bancos de dados MySQL. Isso inclui isolamento de rede usando a nuvem privada virtual (VPC) da Amazon, a criptografia em repouso usando chaves que você cria e controla por meio do AWS Key Management Service (KMS) e criptografia de dados em trânsito usando SSL.
+
+Etapa 3: 
+- Nome: EC2
+- Foco: O Amazon Elastic Compute Cloud (Amazon EC2) oferece a plataforma de computação mais ampla e aprofundada, com mais de 750 instâncias e opções de processadores, armazenamentos, redes, sistemas operacionais e modelos de compras mais recentes para ajudar você a atender melhor às necessidades da sua workload. Somos o primeiro grande provedor de nuvem a oferecer suporte para processadores Intel, AMD e Arm, a única nuvem com instâncias Mac do EC2 sob demanda e a única nuvem com redes Ethernet de 400 Gbps. Oferecemos a melhor performance de preço para treinamento de machine learning, bem como o menor custo por instâncias de inferência na nuvem. Mais workloads SAP, computação de alta performance (HPC), ML e Windows são executadas na AWS do que qualquer outra nuvem.
+- Descrição: 1. Execute aplicações empresariais e nativas da nuvem: O Amazon EC2 oferece uma infraestrutura de computação segura, confiável, de alta performance e econômica para atender às exigentes necessidades dos seus negócios. 2. Escale para aplicações de HPC: Acesse a infraestrutura e a capacidade sob demanda necessárias para executar aplicações de HPC de maneira mais rápida e econômica. 3. Desenvolva para plataformas Apple: Crie, teste e assine workloads do macOS sob demanda. Acesse ambientes em minutos, escale dinamicamente a capacidade conforme necessário e beneficie-se da definição de preço paga conforme o uso da AWS. 4. Treinar e implantar aplicações de ML: O Amazon EC2 oferece a mais ampla opção de serviços de computação, rede (até 400 Gbps) e armazenamento criados especificamente para otimizar a relação preço/performance para projetos de ML.
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa Abstergo Industries, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+
+Assinatura do Responsável pelo Projeto:
+
+Bruniel Menezes
